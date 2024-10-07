@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+$white: #fff;
+$black: rgb(0, 2, 41);
+$black2: rgb(8, 8, 18);
+$ratting: #ffc000;
+$white-100: #fff;
+$primary-color: rgb(96, 14, 228);
+$p2-clr: rgb(255, 206, 90);
+$gray-100: rgb(95, 97, 104);
+$pra2: #ddd;
+$blue-color: blue;
+$text-color: rgb(238, 238, 245);
+$cmnbg: rgb(238, 238, 245);
+$border-color: rgb(0, 2, 41, 0.102);
+$shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+
+
+.white-clr{
+    color: $white;
+}
+
+.black-clr{
+    color: $black;
+}
+
+.pr-clr{
+    color: $primary-color;
+}
+
+.p2-clr{
+    color: $p2-clr;
+}
+
+.ratting{
+    background: $ratting;
+}
+
+.p2-clr{
+    color: $p2-clr;
+}
+
+
+// font ralated
+.fs-five{
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.fs-six{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+
+
+
+$body-font: "Albert Sans", sans-serif;
+

@@ -1,0 +1,15 @@
+// banner one shape animation
+
+.banner-text-element{
+    position: absolute;
+    right: 10%;
+    top: 50px;
+    animation: rots 2s linear infinite;
+  }
+  
+  @keyframes rots {
+    50% {
+      transform: rotate(10deg);
+    }
+  }
+  
