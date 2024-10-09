@@ -17,23 +17,7 @@
       transition: all 0.5s linear;
       z-index: 1;
       border-radius: 20px;
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background-color: $white;
-        transform: scalex(0.0);
-        transform-origin: center;
-        transform-style: preserve-3d;
-        -webkit-transition: all 0.4s linear;
-        -o-transition: all 0.4s linear;
-        transition: all 0.4s linear;
-        transform-origin: left center;
-        z-index: -1;
-      }
+
       &::after {
         content: "";
         position: absolute;

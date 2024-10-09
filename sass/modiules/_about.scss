@@ -1,0 +1,38 @@
+.about-section {
+  .about-thumbs {
+    display: flex;
+    gap: 24px;
+    align-items: self-end;
+    .thumb-inner {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .content-count {
+        background: $primary-color;
+        padding: 34px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        align-items: center;
+        .count-item {
+          font-size: 70px;
+          font-weight: 700;
+          color: $white;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 500;
+          font-family: $body-font;
+          line-height: 28px;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .about-content {
+    margin-left: 110px;
+  }
+}

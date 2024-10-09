@@ -116,6 +116,86 @@ if (scroll < 100) {
 
 
 
+	//>> Testimonial Slider Start <<//
+	const testimonialSlider = new Swiper(".testimonial-slider", {
+		spaceBetween: 30,
+		speed: 1500,
+		loop: true,
+		autoplay: {
+			delay: 1000,
+			disableOnInteraction: false,
+		},
+		pagination: {
+			el: ".dot",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: ".array-prev",
+			prevEl: ".array-next",
+		},
+		breakpoints: {
+			1199: {
+				slidesPerView: 2,
+			},
+			767: {
+				slidesPerView: 2,
+			},
+			575: {
+				slidesPerView: 1,
+			},
+			0: {
+				slidesPerView: 1,
+			},
+		},
+	});
+
+	// // video popup---------------
+	// 		//>> Video Popup Start <<//
+	// 		$(".img-popup").magnificPopup({
+	// 			type: "image",
+	// 			gallery: {
+	// 				enabled: true,
+	// 			},
+	// 		});
+	
+	// 		$(".video-popup").magnificPopup({
+	// 			type: "iframe",
+	// 			callbacks: {},
+	// 		});
+
+			
+
+
+				//>> Sliders Start <<//
+		const partnered_wrapper = new Swiper(".marquee-wrapper", {
+			speed: 6000,
+			loop: true,
+			slidesPerView: "auto",
+			centeredSlides: true,
+			autoplay: {
+				delay: 1,
+				disableOnInteraction: false,
+			},
+			breakpoints: {
+				991: {
+					spaceBetween: 20,
+				},
+				600: {
+					spaceBetween: 16,
+				},
+				400: {
+					spaceBetween: 15,
+				},
+				0: {
+					spaceBetween: 12,
+				},
+			},
+		});
+
+
+
+
+
 
 })(jQuery); // End jQuery
 

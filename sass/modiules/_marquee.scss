@@ -1,0 +1,192 @@
+.marquee-section{
+    background-size: cover;
+    .swiper-wrapper {
+		transition-timing-function: linear !important;
+        .partnered-item {
+            font-size: 30px;
+            color: $white;
+            font-weight: 600;
+        }
+	}
+
+}
+
+
+//----------------- srvice section
+
+.service-section{
+    .service-count-wrap{
+        .border-line
+        {
+            background: #000229;
+            width: 100%;
+            height: 1px;
+        }
+        .service-inner{
+            .arrows-right{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 52px;
+                height: 52px;
+                border: 1px solid rgb(0, 2, 41);
+                border-radius: 50%;
+                transform: rotate(-15deg);
+                transition: all 0.4s;
+            }
+            &:hover .arrows-right{
+                transform: rotate(0deg);
+                background: $primary-color;
+                border-color: $primary-color;
+                color: $white;
+            }
+            &:hover h3 a{
+                color: $primary-color;
+            }
+            .service-hover{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-20%, -50%) rotateX(90deg);
+                transition: all 0.4s;
+            }
+            &:hover .service-hover{
+
+                transform: translate(-20%, -50%) rotateX(0deg) rotate(4deg);
+           }
+        }
+    }
+}
+
+
+
+// ---------------testimonial 
+
+.testimonial-section{
+    background: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    .section-title-area {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+        .section-title{
+            .white-same-bg{
+                &::before{
+                    background: $white !important;
+                }
+            }
+        }
+        .array-button {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            button{
+                width: 60px;
+                height: 60px;
+                border: 1px solid #b99de5;
+                background-color: rgba(255, 255, 255, 0.102);
+                border-radius: 50%;
+                &.active{
+                    background: $p2-clr;
+                }
+                &:hover{
+                    background: $p2-clr;
+                }
+                i{
+                    color: $white;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .testimonial-items {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        background: #fff;
+        border-radius: 12px;
+        padding: 35px 24px;
+        .testimonial-content{
+            p{
+                font-size: 18px;
+                font-style: italic;
+                font-weight: 600;
+            }
+        }
+    }
+    .testimonial-dot-shape{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+    }
+}
+
+
+//-------------- choose us are
+
+.choose-section{
+        background-image: url(/images/choose-us/choose-bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        top: 0;
+
+    .choose-wrapper{
+        background: $white;
+        border-radius: 10px;
+        display: flex;
+       .choose-line {
+            border-left: 1px solid #eaeaea;
+            width: 1px;
+            height: 416px;
+        }
+        .choose-item{
+            padding: 55px 29px;
+            .icon {
+                    width: 85px;
+                    height: 85px;
+                    transition: all 0.4s;
+                    margin: 0 auto 30px;
+            }
+            &:hover .icon{
+                background-color: $primary-color;
+            }
+            .sub-red{
+                padding: 9px 20px;
+                display: inline-block;
+                border-radius: 6px;
+                background-color: rgb(247, 249, 251);
+                color: rgb(0, 2, 41) !important;
+                a{
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+            &:hover .sub-red{
+                background: $primary-color;
+                color: $white !important;
+            }
+        }
+    }
+
+
+    .play-in {
+        width: 124px;
+        height: 124px;
+        position: absolute;
+        transition: all 0.4s;
+        a{
+            color: $white;
+        }
+        &:hover{
+            background-color: $primary-color;
+            color: $white;
+        }
+    }
+
+}
